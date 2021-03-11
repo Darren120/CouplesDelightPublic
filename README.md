@@ -22,8 +22,12 @@
 - **Map:** Show deals on maps when tracking is enabled.
 - **Couples Forum:** We believe couples should be able learn from one another.
 
+## Developers:
+**Darren Zou**
+
 ## Contact:
 - **Email:** Zoudarren7@gmail.com
+
 
 
 
