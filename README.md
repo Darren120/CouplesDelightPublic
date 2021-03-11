@@ -1,4 +1,5 @@
 # Couples Delight Preview
+- **GIFs will lag on first time loading, please allow browser time to download and cache for better viewing**
 - Our goal is to improve communication and understanding to create a lasting and fufilling relationships.
 - **The App uses Google Firebase, the google.plist is removed to protect backend. Cloud Functions source code also hidden for secuirty reasons. If required, email me for the backend code.**
 
