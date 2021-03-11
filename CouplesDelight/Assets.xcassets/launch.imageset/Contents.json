@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Simulator Screen Shot - iPhone SE (2nd generation) - 2020-11-10 at 12.54.01.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Simulator Screen Shot - iPhone SE (2nd generation) - 2020-11-10 at 12.54.01-1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Simulator Screen Shot - iPhone SE (2nd generation) - 2020-11-10 at 12.54.01-2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,1197 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		178CCC6B38E72C244B4D82FA /* Pods_NotificationService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E334D02B6FF863F9D811ED39 /* Pods_NotificationService.framework */; };
+		951EC5FD2548C50F0010A10A /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EC5FC2548C50F0010A10A /* OnBoardingView.swift */; };
+		951EC6092548D8650010A10A /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EC6082548D8650010A10A /* AppStateManager.swift */; };
+		951EC610254A44480010A10A /* Indicators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EC60F254A44480010A10A /* Indicators.swift */; };
+		951EC618254C81BD0010A10A /* LottieAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EC617254C81BD0010A10A /* LottieAnimationView.swift */; };
+		951EC624254CB8CF0010A10A /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EC623254CB8CF0010A10A /* AuthManager.swift */; };
+		951EC631254CC3360010A10A /* ghost.json in Resources */ = {isa = PBXBuildFile; fileRef = 951EC630254CC3360010A10A /* ghost.json */; };
+		951EC638254CC49A0010A10A /* couple.json in Resources */ = {isa = PBXBuildFile; fileRef = 951EC637254CC49A0010A10A /* couple.json */; };
+		951EC63F254CC6B00010A10A /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EC63E254CC6B00010A10A /* AuthView.swift */; };
+		951EC678254CEE490010A10A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EC677254CEE490010A10A /* Models.swift */; };
+		951EC68E254CF69C0010A10A /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EC68D254CF69C0010A10A /* AuthViewModel.swift */; };
+		951EC6E22551D0000010A10A /* MasterAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EC6E12551D0000010A10A /* MasterAPIService.swift */; };
+		951EC6F8255238AC0010A10A /* CreateProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EC6F7255238AC0010A10A /* CreateProfileViewModel.swift */; };
+		951EC6FF2552392C0010A10A /* CreateProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EC6FE2552392C0010A10A /* CreateProfileView.swift */; };
+		951EC712255789E30010A10A /* LinkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EC711255789E30010A10A /* LinkViewModel.swift */; };
+		951EC7192558C6BD0010A10A /* LinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EC7182558C6BD0010A10A /* LinkView.swift */; };
+		951EC7252559C8B00010A10A /* HelperViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EC7242559C8B00010A10A /* HelperViews.swift */; };
+		951EC790255B0D420010A10A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 951EC78F255B0D420010A10A /* Launch Screen.storyboard */; };
+		9534C91225B60003004A227B /* sleepingKola.json in Resources */ = {isa = PBXBuildFile; fileRef = 9534C91125B60003004A227B /* sleepingKola.json */; };
+		9534C91925B68161004A227B /* done.json in Resources */ = {isa = PBXBuildFile; fileRef = 9534C91825B68161004A227B /* done.json */; };
+		9534C92025B76EE1004A227B /* sendSuccess.json in Resources */ = {isa = PBXBuildFile; fileRef = 9534C91F25B76EE1004A227B /* sendSuccess.json */; };
+		957060D32568767A00004A89 /* check.json in Resources */ = {isa = PBXBuildFile; fileRef = 957060D22568767A00004A89 /* check.json */; };
+		957060DA256C92FF00004A89 /* DashBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957060D9256C92FF00004A89 /* DashBoardView.swift */; };
+		957060E2256C932200004A89 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957060E1256C932200004A89 /* MainTabView.swift */; };
+		957060E9256C979400004A89 /* ShoppingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957060E8256C979400004A89 /* ShoppingView.swift */; };
+		95706122256CAEC600004A89 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95706121256CAEC600004A89 /* MapView.swift */; };
+		957061512577123800004A89 /* GamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957061502577123800004A89 /* GamesView.swift */; };
+		957061832589468C00004A89 /* GamesViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957061822589468C00004A89 /* GamesViewModels.swift */; };
+		95BE30302544D63E00100A5E /* CouplesDelightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BE302F2544D63E00100A5E /* CouplesDelightApp.swift */; };
+		95BE30322544D63E00100A5E /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BE30312544D63E00100A5E /* OnBoarding.swift */; };
+		95BE30342544D63F00100A5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95BE30332544D63F00100A5E /* Assets.xcassets */; };
+		95BE30372544D63F00100A5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95BE30362544D63F00100A5E /* Preview Assets.xcassets */; };
+		95BE30422544D63F00100A5E /* CouplesDelightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BE30412544D63F00100A5E /* CouplesDelightTests.swift */; };
+		95BE304D2544D63F00100A5E /* CouplesDelightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BE304C2544D63F00100A5E /* CouplesDelightUITests.swift */; };
+		95BE30642544D70400100A5E /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BE30632544D70400100A5E /* NotificationService.swift */; };
+		95BE30682544D70400100A5E /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 95BE30612544D70400100A5E /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		95BE30782544D72500100A5E /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BE30772544D72500100A5E /* UserNotifications.framework */; };
+		95BE307A2544D72500100A5E /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BE30792544D72500100A5E /* UserNotificationsUI.framework */; };
+		95BE307D2544D72500100A5E /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BE307C2544D72500100A5E /* NotificationViewController.swift */; };
+		95BE30802544D72500100A5E /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95BE307E2544D72500100A5E /* MainInterface.storyboard */; };
+		95BE30842544D72500100A5E /* NotificationContent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 95BE30752544D72500100A5E /* NotificationContent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		95BE30BA2544E2F000100A5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BE30B92544E2F000100A5E /* AppDelegate.swift */; };
+		95BE30C12544E4D100100A5E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95BE30C02544E4D100100A5E /* GoogleService-Info.plist */; };
+		95CF7D1B2545E65C008B5EA9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CF7D1A2545E65C008B5EA9 /* Extensions.swift */; };
+		95CF7D272545E73E008B5EA9 /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CF7D262545E73E008B5EA9 /* CryptoService.swift */; };
+		95D8AD2D25A5010800DC13DC /* CardGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D8AD2C25A5010800DC13DC /* CardGame.swift */; };
+		95D8AD3925AD1C7700DC13DC /* heartLoader.json in Resources */ = {isa = PBXBuildFile; fileRef = 95D8AD3825AD1C7700DC13DC /* heartLoader.json */; };
+		95F0ED0925F92525002D0676 /* APIEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F0ED0825F92525002D0676 /* APIEndPoints.swift */; };
+		B5F894D9790474B77CF8E036 /* Pods_CouplesDelight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052341661D56DD44B01D5AC0 /* Pods_CouplesDelight.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95BE303E2544D63F00100A5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95BE30242544D63E00100A5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95BE302B2544D63E00100A5E;
+			remoteInfo = CouplesDelight;
+		};
+		95BE30492544D63F00100A5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95BE30242544D63E00100A5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95BE302B2544D63E00100A5E;
+			remoteInfo = CouplesDelight;
+		};
+		95BE30662544D70400100A5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95BE30242544D63E00100A5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95BE30602544D70400100A5E;
+			remoteInfo = NotificationService;
+		};
+		95BE30822544D72500100A5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95BE30242544D63E00100A5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95BE30742544D72500100A5E;
+			remoteInfo = NotificationContent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		95BE306C2544D70400100A5E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				95BE30682544D70400100A5E /* NotificationService.appex in Embed App Extensions */,
+				95BE30842544D72500100A5E /* NotificationContent.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02CBAF0DC67AFC6B433E0D0F /* Pods-CouplesDelight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CouplesDelight.release.xcconfig"; path = "Target Support Files/Pods-CouplesDelight/Pods-CouplesDelight.release.xcconfig"; sourceTree = "<group>"; };
+		052341661D56DD44B01D5AC0 /* Pods_CouplesDelight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CouplesDelight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4267125ACDC7427BB479EAA5 /* Pods-CouplesDelight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CouplesDelight.debug.xcconfig"; path = "Target Support Files/Pods-CouplesDelight/Pods-CouplesDelight.debug.xcconfig"; sourceTree = "<group>"; };
+		951EC5FC2548C50F0010A10A /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		951EC6082548D8650010A10A /* AppStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateManager.swift; sourceTree = "<group>"; };
+		951EC60F254A44480010A10A /* Indicators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indicators.swift; sourceTree = "<group>"; };
+		951EC617254C81BD0010A10A /* LottieAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationView.swift; sourceTree = "<group>"; };
+		951EC623254CB8CF0010A10A /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		951EC630254CC3360010A10A /* ghost.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ghost.json; sourceTree = "<group>"; };
+		951EC637254CC49A0010A10A /* couple.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = couple.json; sourceTree = "<group>"; };
+		951EC63E254CC6B00010A10A /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		951EC677254CEE490010A10A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		951EC68D254CF69C0010A10A /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		951EC6E12551D0000010A10A /* MasterAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterAPIService.swift; sourceTree = "<group>"; };
+		951EC6F7255238AC0010A10A /* CreateProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileViewModel.swift; sourceTree = "<group>"; };
+		951EC6FE2552392C0010A10A /* CreateProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileView.swift; sourceTree = "<group>"; };
+		951EC711255789E30010A10A /* LinkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkViewModel.swift; sourceTree = "<group>"; };
+		951EC7182558C6BD0010A10A /* LinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkView.swift; sourceTree = "<group>"; };
+		951EC7242559C8B00010A10A /* HelperViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperViews.swift; sourceTree = "<group>"; };
+		951EC78F255B0D420010A10A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		9534C91125B60003004A227B /* sleepingKola.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sleepingKola.json; sourceTree = "<group>"; };
+		9534C91825B68161004A227B /* done.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = done.json; sourceTree = "<group>"; };
+		9534C91F25B76EE1004A227B /* sendSuccess.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sendSuccess.json; sourceTree = "<group>"; };
+		957060D22568767A00004A89 /* check.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = check.json; sourceTree = "<group>"; };
+		957060D9256C92FF00004A89 /* DashBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardView.swift; sourceTree = "<group>"; };
+		957060E1256C932200004A89 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		957060E8256C979400004A89 /* ShoppingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingView.swift; sourceTree = "<group>"; };
+		95706121256CAEC600004A89 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		957061502577123800004A89 /* GamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GamesView.swift; path = "../New Group/GamesView.swift"; sourceTree = "<group>"; };
+		957061822589468C00004A89 /* GamesViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewModels.swift; sourceTree = "<group>"; };
+		95BE302C2544D63E00100A5E /* CouplesDelight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CouplesDelight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95BE302F2544D63E00100A5E /* CouplesDelightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouplesDelightApp.swift; sourceTree = "<group>"; };
+		95BE30312544D63E00100A5E /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
+		95BE30332544D63F00100A5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95BE30362544D63F00100A5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95BE30382544D63F00100A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95BE303D2544D63F00100A5E /* CouplesDelightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CouplesDelightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95BE30412544D63F00100A5E /* CouplesDelightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouplesDelightTests.swift; sourceTree = "<group>"; };
+		95BE30432544D63F00100A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95BE30482544D63F00100A5E /* CouplesDelightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CouplesDelightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95BE304C2544D63F00100A5E /* CouplesDelightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouplesDelightUITests.swift; sourceTree = "<group>"; };
+		95BE304E2544D63F00100A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95BE30612544D70400100A5E /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		95BE30632544D70400100A5E /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		95BE30652544D70400100A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95BE30752544D72500100A5E /* NotificationContent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationContent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		95BE30772544D72500100A5E /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		95BE30792544D72500100A5E /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		95BE307C2544D72500100A5E /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		95BE307F2544D72500100A5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		95BE30812544D72500100A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95BE30B92544E2F000100A5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95BE30C02544E4D100100A5E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		95BE30CC2544F25A00100A5E /* CouplesDelight.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CouplesDelight.entitlements; sourceTree = "<group>"; };
+		95CF7D1A2545E65C008B5EA9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		95CF7D262545E73E008B5EA9 /* CryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
+		95D8AD2C25A5010800DC13DC /* CardGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGame.swift; sourceTree = "<group>"; };
+		95D8AD3825AD1C7700DC13DC /* heartLoader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heartLoader.json; sourceTree = "<group>"; };
+		95F0ED0825F92525002D0676 /* APIEndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndPoints.swift; sourceTree = "<group>"; };
+		9C25D8F41EAFE02B62CB42FB /* Pods-NotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.debug.xcconfig"; path = "Target Support Files/Pods-NotificationService/Pods-NotificationService.debug.xcconfig"; sourceTree = "<group>"; };
+		BC251269F568B300206709DE /* Pods-NotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.release.xcconfig"; path = "Target Support Files/Pods-NotificationService/Pods-NotificationService.release.xcconfig"; sourceTree = "<group>"; };
+		E334D02B6FF863F9D811ED39 /* Pods_NotificationService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95BE30292544D63E00100A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F894D9790474B77CF8E036 /* Pods_CouplesDelight.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BE303A2544D63F00100A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BE30452544D63F00100A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BE305E2544D70400100A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178CCC6B38E72C244B4D82FA /* Pods_NotificationService.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BE30722544D72500100A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BE307A2544D72500100A5E /* UserNotificationsUI.framework in Frameworks */,
+				95BE30782544D72500100A5E /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F7518FF15EB0E90DADDA902 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4267125ACDC7427BB479EAA5 /* Pods-CouplesDelight.debug.xcconfig */,
+				02CBAF0DC67AFC6B433E0D0F /* Pods-CouplesDelight.release.xcconfig */,
+				9C25D8F41EAFE02B62CB42FB /* Pods-NotificationService.debug.xcconfig */,
+				BC251269F568B300206709DE /* Pods-NotificationService.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		951EC5FB2548C4F90010A10A /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				95BE30312544D63E00100A5E /* OnBoarding.swift */,
+				951EC5FC2548C50F0010A10A /* OnBoardingView.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		951EC616254C81870010A10A /* ViewStateManager */ = {
+			isa = PBXGroup;
+			children = (
+				951EC6082548D8650010A10A /* AppStateManager.swift */,
+				951EC60F254A44480010A10A /* Indicators.swift */,
+				951EC617254C81BD0010A10A /* LottieAnimationView.swift */,
+			);
+			path = ViewStateManager;
+			sourceTree = "<group>";
+		};
+		951EC62F254CC3270010A10A /* LottieFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9534C91F25B76EE1004A227B /* sendSuccess.json */,
+				9534C91825B68161004A227B /* done.json */,
+				9534C91125B60003004A227B /* sleepingKola.json */,
+				95D8AD3825AD1C7700DC13DC /* heartLoader.json */,
+				957060D22568767A00004A89 /* check.json */,
+				951EC637254CC49A0010A10A /* couple.json */,
+				951EC630254CC3360010A10A /* ghost.json */,
+			);
+			path = LottieFiles;
+			sourceTree = "<group>";
+		};
+		957060E0256C931100004A89 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				95D8AD2B25A500F500DC13DC /* Games */,
+				957060E1256C932200004A89 /* MainTabView.swift */,
+				957060D9256C92FF00004A89 /* DashBoardView.swift */,
+				957060E8256C979400004A89 /* ShoppingView.swift */,
+				95706121256CAEC600004A89 /* MapView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		957061812589438A00004A89 /* GamesViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GamesViewModel;
+			sourceTree = "<group>";
+		};
+		95BE30232544D63E00100A5E = {
+			isa = PBXGroup;
+			children = (
+				951EC78F255B0D420010A10A /* Launch Screen.storyboard */,
+				95BE302E2544D63E00100A5E /* CouplesDelight */,
+				95BE30402544D63F00100A5E /* CouplesDelightTests */,
+				95BE304B2544D63F00100A5E /* CouplesDelightUITests */,
+				95BE30622544D70400100A5E /* NotificationService */,
+				95BE307B2544D72500100A5E /* NotificationContent */,
+				95BE30762544D72500100A5E /* Frameworks */,
+				95BE302D2544D63E00100A5E /* Products */,
+				1F7518FF15EB0E90DADDA902 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		95BE302D2544D63E00100A5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95BE302C2544D63E00100A5E /* CouplesDelight.app */,
+				95BE303D2544D63F00100A5E /* CouplesDelightTests.xctest */,
+				95BE30482544D63F00100A5E /* CouplesDelightUITests.xctest */,
+				95BE30612544D70400100A5E /* NotificationService.appex */,
+				95BE30752544D72500100A5E /* NotificationContent.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95BE302E2544D63E00100A5E /* CouplesDelight */ = {
+			isa = PBXGroup;
+			children = (
+				951EC62F254CC3270010A10A /* LottieFiles */,
+				95CF7D192545E62E008B5EA9 /* Setup */,
+				95CF7D182545E628008B5EA9 /* Services */,
+				95CF7D172545E61E008B5EA9 /* Models */,
+				95CF7D162545E618008B5EA9 /* ViewModels */,
+				95CF7D152545E60F008B5EA9 /* Views */,
+				95BE30CC2544F25A00100A5E /* CouplesDelight.entitlements */,
+				95BE30332544D63F00100A5E /* Assets.xcassets */,
+				95BE30382544D63F00100A5E /* Info.plist */,
+				95BE30C02544E4D100100A5E /* GoogleService-Info.plist */,
+				95BE30352544D63F00100A5E /* Preview Content */,
+			);
+			path = CouplesDelight;
+			sourceTree = "<group>";
+		};
+		95BE30352544D63F00100A5E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				95BE30362544D63F00100A5E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95BE30402544D63F00100A5E /* CouplesDelightTests */ = {
+			isa = PBXGroup;
+			children = (
+				95BE30412544D63F00100A5E /* CouplesDelightTests.swift */,
+				95BE30432544D63F00100A5E /* Info.plist */,
+			);
+			path = CouplesDelightTests;
+			sourceTree = "<group>";
+		};
+		95BE304B2544D63F00100A5E /* CouplesDelightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95BE304C2544D63F00100A5E /* CouplesDelightUITests.swift */,
+				95BE304E2544D63F00100A5E /* Info.plist */,
+			);
+			path = CouplesDelightUITests;
+			sourceTree = "<group>";
+		};
+		95BE30622544D70400100A5E /* NotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				95BE30632544D70400100A5E /* NotificationService.swift */,
+				95BE30652544D70400100A5E /* Info.plist */,
+			);
+			path = NotificationService;
+			sourceTree = "<group>";
+		};
+		95BE30762544D72500100A5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95BE30772544D72500100A5E /* UserNotifications.framework */,
+				95BE30792544D72500100A5E /* UserNotificationsUI.framework */,
+				052341661D56DD44B01D5AC0 /* Pods_CouplesDelight.framework */,
+				E334D02B6FF863F9D811ED39 /* Pods_NotificationService.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95BE307B2544D72500100A5E /* NotificationContent */ = {
+			isa = PBXGroup;
+			children = (
+				95BE307C2544D72500100A5E /* NotificationViewController.swift */,
+				95BE307E2544D72500100A5E /* MainInterface.storyboard */,
+				95BE30812544D72500100A5E /* Info.plist */,
+			);
+			path = NotificationContent;
+			sourceTree = "<group>";
+		};
+		95CF7D152545E60F008B5EA9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				957060E0256C931100004A89 /* MainView */,
+				95BE302F2544D63E00100A5E /* CouplesDelightApp.swift */,
+				951EC63E254CC6B00010A10A /* AuthView.swift */,
+				951EC7182558C6BD0010A10A /* LinkView.swift */,
+				951EC6FE2552392C0010A10A /* CreateProfileView.swift */,
+				951EC5FB2548C4F90010A10A /* OnBoarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		95CF7D162545E618008B5EA9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				957061812589438A00004A89 /* GamesViewModel */,
+				951EC68D254CF69C0010A10A /* AuthViewModel.swift */,
+				951EC6F7255238AC0010A10A /* CreateProfileViewModel.swift */,
+				951EC711255789E30010A10A /* LinkViewModel.swift */,
+				957061822589468C00004A89 /* GamesViewModels.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		95CF7D172545E61E008B5EA9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				951EC677254CEE490010A10A /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		95CF7D182545E628008B5EA9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				951EC616254C81870010A10A /* ViewStateManager */,
+				95CF7D262545E73E008B5EA9 /* CryptoService.swift */,
+				951EC623254CB8CF0010A10A /* AuthManager.swift */,
+				951EC6E12551D0000010A10A /* MasterAPIService.swift */,
+				95F0ED0825F92525002D0676 /* APIEndPoints.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		95CF7D192545E62E008B5EA9 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				95BE30B92544E2F000100A5E /* AppDelegate.swift */,
+				95CF7D1A2545E65C008B5EA9 /* Extensions.swift */,
+				951EC7242559C8B00010A10A /* HelperViews.swift */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
+		95D8AD2B25A500F500DC13DC /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				957061502577123800004A89 /* GamesView.swift */,
+				95D8AD2C25A5010800DC13DC /* CardGame.swift */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95BE302B2544D63E00100A5E /* CouplesDelight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95BE30512544D63F00100A5E /* Build configuration list for PBXNativeTarget "CouplesDelight" */;
+			buildPhases = (
+				5535B9DEEB2456C4EC7990F8 /* [CP] Check Pods Manifest.lock */,
+				95BE30282544D63E00100A5E /* Sources */,
+				95BE30292544D63E00100A5E /* Frameworks */,
+				95BE302A2544D63E00100A5E /* Resources */,
+				95BE306C2544D70400100A5E /* Embed App Extensions */,
+				6C45CE9897BD0BCDBD6A7230 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95BE30672544D70400100A5E /* PBXTargetDependency */,
+				95BE30832544D72500100A5E /* PBXTargetDependency */,
+			);
+			name = CouplesDelight;
+			productName = CouplesDelight;
+			productReference = 95BE302C2544D63E00100A5E /* CouplesDelight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95BE303C2544D63F00100A5E /* CouplesDelightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95BE30542544D63F00100A5E /* Build configuration list for PBXNativeTarget "CouplesDelightTests" */;
+			buildPhases = (
+				95BE30392544D63F00100A5E /* Sources */,
+				95BE303A2544D63F00100A5E /* Frameworks */,
+				95BE303B2544D63F00100A5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95BE303F2544D63F00100A5E /* PBXTargetDependency */,
+			);
+			name = CouplesDelightTests;
+			productName = CouplesDelightTests;
+			productReference = 95BE303D2544D63F00100A5E /* CouplesDelightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95BE30472544D63F00100A5E /* CouplesDelightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95BE30572544D63F00100A5E /* Build configuration list for PBXNativeTarget "CouplesDelightUITests" */;
+			buildPhases = (
+				95BE30442544D63F00100A5E /* Sources */,
+				95BE30452544D63F00100A5E /* Frameworks */,
+				95BE30462544D63F00100A5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95BE304A2544D63F00100A5E /* PBXTargetDependency */,
+			);
+			name = CouplesDelightUITests;
+			productName = CouplesDelightUITests;
+			productReference = 95BE30482544D63F00100A5E /* CouplesDelightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		95BE30602544D70400100A5E /* NotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95BE30692544D70400100A5E /* Build configuration list for PBXNativeTarget "NotificationService" */;
+			buildPhases = (
+				CD44180A805F644959760061 /* [CP] Check Pods Manifest.lock */,
+				95BE305D2544D70400100A5E /* Sources */,
+				95BE305E2544D70400100A5E /* Frameworks */,
+				95BE305F2544D70400100A5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationService;
+			productName = NotificationService;
+			productReference = 95BE30612544D70400100A5E /* NotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		95BE30742544D72500100A5E /* NotificationContent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95BE30852544D72500100A5E /* Build configuration list for PBXNativeTarget "NotificationContent" */;
+			buildPhases = (
+				95BE30712544D72500100A5E /* Sources */,
+				95BE30722544D72500100A5E /* Frameworks */,
+				95BE30732544D72500100A5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationContent;
+			productName = NotificationContent;
+			productReference = 95BE30752544D72500100A5E /* NotificationContent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95BE30242544D63E00100A5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					95BE302B2544D63E00100A5E = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					95BE303C2544D63F00100A5E = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 95BE302B2544D63E00100A5E;
+					};
+					95BE30472544D63F00100A5E = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 95BE302B2544D63E00100A5E;
+					};
+					95BE30602544D70400100A5E = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					95BE30742544D72500100A5E = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 95BE30272544D63E00100A5E /* Build configuration list for PBXProject "CouplesDelight" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95BE30232544D63E00100A5E;
+			productRefGroup = 95BE302D2544D63E00100A5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95BE302B2544D63E00100A5E /* CouplesDelight */,
+				95BE303C2544D63F00100A5E /* CouplesDelightTests */,
+				95BE30472544D63F00100A5E /* CouplesDelightUITests */,
+				95BE30602544D70400100A5E /* NotificationService */,
+				95BE30742544D72500100A5E /* NotificationContent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95BE302A2544D63E00100A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951EC790255B0D420010A10A /* Launch Screen.storyboard in Resources */,
+				95BE30C12544E4D100100A5E /* GoogleService-Info.plist in Resources */,
+				95BE30372544D63F00100A5E /* Preview Assets.xcassets in Resources */,
+				9534C91925B68161004A227B /* done.json in Resources */,
+				9534C92025B76EE1004A227B /* sendSuccess.json in Resources */,
+				95D8AD3925AD1C7700DC13DC /* heartLoader.json in Resources */,
+				957060D32568767A00004A89 /* check.json in Resources */,
+				95BE30342544D63F00100A5E /* Assets.xcassets in Resources */,
+				9534C91225B60003004A227B /* sleepingKola.json in Resources */,
+				951EC631254CC3360010A10A /* ghost.json in Resources */,
+				951EC638254CC49A0010A10A /* couple.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BE303B2544D63F00100A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BE30462544D63F00100A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BE305F2544D70400100A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BE30732544D72500100A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BE30802544D72500100A5E /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5535B9DEEB2456C4EC7990F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CouplesDelight-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C45CE9897BD0BCDBD6A7230 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CouplesDelight/Pods-CouplesDelight-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CouplesDelight/Pods-CouplesDelight-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CouplesDelight/Pods-CouplesDelight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD44180A805F644959760061 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NotificationService-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95BE30282544D63E00100A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BE30BA2544E2F000100A5E /* AppDelegate.swift in Sources */,
+				957060E2256C932200004A89 /* MainTabView.swift in Sources */,
+				957060E9256C979400004A89 /* ShoppingView.swift in Sources */,
+				957060DA256C92FF00004A89 /* DashBoardView.swift in Sources */,
+				951EC618254C81BD0010A10A /* LottieAnimationView.swift in Sources */,
+				95F0ED0925F92525002D0676 /* APIEndPoints.swift in Sources */,
+				951EC712255789E30010A10A /* LinkViewModel.swift in Sources */,
+				951EC6FF2552392C0010A10A /* CreateProfileView.swift in Sources */,
+				951EC6092548D8650010A10A /* AppStateManager.swift in Sources */,
+				951EC678254CEE490010A10A /* Models.swift in Sources */,
+				95D8AD2D25A5010800DC13DC /* CardGame.swift in Sources */,
+				95706122256CAEC600004A89 /* MapView.swift in Sources */,
+				95BE30322544D63E00100A5E /* OnBoarding.swift in Sources */,
+				951EC610254A44480010A10A /* Indicators.swift in Sources */,
+				951EC7252559C8B00010A10A /* HelperViews.swift in Sources */,
+				95BE30302544D63E00100A5E /* CouplesDelightApp.swift in Sources */,
+				951EC6E22551D0000010A10A /* MasterAPIService.swift in Sources */,
+				951EC6F8255238AC0010A10A /* CreateProfileViewModel.swift in Sources */,
+				951EC5FD2548C50F0010A10A /* OnBoardingView.swift in Sources */,
+				951EC624254CB8CF0010A10A /* AuthManager.swift in Sources */,
+				957061512577123800004A89 /* GamesView.swift in Sources */,
+				95CF7D272545E73E008B5EA9 /* CryptoService.swift in Sources */,
+				951EC68E254CF69C0010A10A /* AuthViewModel.swift in Sources */,
+				951EC63F254CC6B00010A10A /* AuthView.swift in Sources */,
+				957061832589468C00004A89 /* GamesViewModels.swift in Sources */,
+				951EC7192558C6BD0010A10A /* LinkView.swift in Sources */,
+				95CF7D1B2545E65C008B5EA9 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BE30392544D63F00100A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BE30422544D63F00100A5E /* CouplesDelightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BE30442544D63F00100A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BE304D2544D63F00100A5E /* CouplesDelightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BE305D2544D70400100A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BE30642544D70400100A5E /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BE30712544D72500100A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BE307D2544D72500100A5E /* NotificationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95BE303F2544D63F00100A5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95BE302B2544D63E00100A5E /* CouplesDelight */;
+			targetProxy = 95BE303E2544D63F00100A5E /* PBXContainerItemProxy */;
+		};
+		95BE304A2544D63F00100A5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95BE302B2544D63E00100A5E /* CouplesDelight */;
+			targetProxy = 95BE30492544D63F00100A5E /* PBXContainerItemProxy */;
+		};
+		95BE30672544D70400100A5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95BE30602544D70400100A5E /* NotificationService */;
+			targetProxy = 95BE30662544D70400100A5E /* PBXContainerItemProxy */;
+		};
+		95BE30832544D72500100A5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95BE30742544D72500100A5E /* NotificationContent */;
+			targetProxy = 95BE30822544D72500100A5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95BE307E2544D72500100A5E /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95BE307F2544D72500100A5E /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95BE304F2544D63F00100A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95BE30502544D63F00100A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95BE30522544D63F00100A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4267125ACDC7427BB479EAA5 /* Pods-CouplesDelight.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CouplesDelight/CouplesDelight.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CouplesDelight/Preview Content\"";
+				DEVELOPMENT_TEAM = LS23PB89N4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CouplesDelight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.couples.CouplesDelight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		95BE30532544D63F00100A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02CBAF0DC67AFC6B433E0D0F /* Pods-CouplesDelight.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CouplesDelight/CouplesDelight.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CouplesDelight/Preview Content\"";
+				DEVELOPMENT_TEAM = LS23PB89N4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CouplesDelight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.couples.CouplesDelight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		95BE30552544D63F00100A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LS23PB89N4;
+				INFOPLIST_FILE = CouplesDelightTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.couples.CouplesDelightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CouplesDelight.app/CouplesDelight";
+			};
+			name = Debug;
+		};
+		95BE30562544D63F00100A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LS23PB89N4;
+				INFOPLIST_FILE = CouplesDelightTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.couples.CouplesDelightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CouplesDelight.app/CouplesDelight";
+			};
+			name = Release;
+		};
+		95BE30582544D63F00100A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LS23PB89N4;
+				INFOPLIST_FILE = CouplesDelightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.couples.CouplesDelightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CouplesDelight;
+			};
+			name = Debug;
+		};
+		95BE30592544D63F00100A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LS23PB89N4;
+				INFOPLIST_FILE = CouplesDelightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.couples.CouplesDelightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CouplesDelight;
+			};
+			name = Release;
+		};
+		95BE306A2544D70400100A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C25D8F41EAFE02B62CB42FB /* Pods-NotificationService.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LS23PB89N4;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.couples.CouplesDelight.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95BE306B2544D70400100A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC251269F568B300206709DE /* Pods-NotificationService.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LS23PB89N4;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.couples.CouplesDelight.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95BE30862544D72500100A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LS23PB89N4;
+				INFOPLIST_FILE = NotificationContent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.couples.CouplesDelight.NotificationContent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95BE30872544D72500100A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LS23PB89N4;
+				INFOPLIST_FILE = NotificationContent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.couples.CouplesDelight.NotificationContent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95BE30272544D63E00100A5E /* Build configuration list for PBXProject "CouplesDelight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95BE304F2544D63F00100A5E /* Debug */,
+				95BE30502544D63F00100A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95BE30512544D63F00100A5E /* Build configuration list for PBXNativeTarget "CouplesDelight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95BE30522544D63F00100A5E /* Debug */,
+				95BE30532544D63F00100A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95BE30542544D63F00100A5E /* Build configuration list for PBXNativeTarget "CouplesDelightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95BE30552544D63F00100A5E /* Debug */,
+				95BE30562544D63F00100A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95BE30572544D63F00100A5E /* Build configuration list for PBXNativeTarget "CouplesDelightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95BE30582544D63F00100A5E /* Debug */,
+				95BE30592544D63F00100A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95BE30692544D70400100A5E /* Build configuration list for PBXNativeTarget "NotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95BE306A2544D70400100A5E /* Debug */,
+				95BE306B2544D70400100A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95BE30852544D72500100A5E /* Build configuration list for PBXNativeTarget "NotificationContent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95BE30862544D72500100A5E /* Debug */,
+				95BE30872544D72500100A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95BE30242544D63E00100A5E /* Project object */;
+}
